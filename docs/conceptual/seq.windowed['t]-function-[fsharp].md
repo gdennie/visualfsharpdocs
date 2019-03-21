@@ -53,7 +53,7 @@ The input sequence.
 
 ## Return Value
 
-The result sequence.
+The sequence of windows over the source or an empty sequence if the requested windowSize is larger than the input source.
 
 ## Remarks
 This function is named `Windowed` in compiled assemblies. If you are accessing the function from a language other than F#, or through reflection, use this name.
